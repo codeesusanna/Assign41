@@ -1,0 +1,6 @@
+num=input()
+l=[]
+for i in num:
+    if i not in l:
+        l.append(i)
+print(*l)           
